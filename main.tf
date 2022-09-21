@@ -13,12 +13,13 @@ terraform {
   }
 
   backend "remote" {
-    organization = "jaredfholgate-hashicorp"
-
+    organization = "nw-tfc-test"
     workspaces {
       name = "bootstrap"
     }
   }
+
+  required_version = "~> 1.2.0"
 }
 
 provider "azurerm" {

@@ -7,7 +7,7 @@ data "azurerm_subscription" "current" {
 resource "azurerm_resource_group" "application" {
   for_each = { for rg in local.azure_resource_groups : rg.name => rg }
   name     = each.key
-  location = "UK South"
+  location = "Canada Central"
 }
 
 resource "azurerm_role_assignment" "application" {

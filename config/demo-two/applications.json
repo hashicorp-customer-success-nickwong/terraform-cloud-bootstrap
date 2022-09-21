@@ -4,7 +4,7 @@
         "github_repository": {
             "create": true,
             "template": {
-                "organisation": "jared-holgate-hashicorp-demos",
+                "organisation": "hashicorp-customer-success-nickwong",
                 "repository": "terraform-ci-cd-template"
             },
             "team_access": [
@@ -44,7 +44,7 @@
                 "vcs_integrated": true,
                 "github_environment": {
                     "reviewers_users": [
-                        "jaredfholgate"
+                        "nicklhw"
                     ],
                     "reviewers_teams": []
                 },

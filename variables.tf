@@ -1,16 +1,16 @@
 variable "prefix" {
   type    = string
-  default = "jared-holgate"
+  default = "nwong"
 }
 
 variable "terraform_organisation" {
   type    = string
-  default = "jaredfholgate-hashicorp"
+  default = "nw-tfc-test"
 }
 
 variable "github_organisation" {
   type    = string
-  default = "jared-holgate-hashicorp-demos"
+  default = "hashicorp-customer-success-nickwong"
 }
 
 variable "github_token" {
@@ -20,7 +20,7 @@ variable "github_token" {
 }
 
 variable "oauth_tokens" {
-  type = map(string)
+  type      = map(string)
   sensitive = true
 }
 
