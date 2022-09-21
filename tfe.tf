@@ -14,6 +14,7 @@ resource "tfe_workspace" "application" {
   organization   = var.terraform_organisation
   description    = "Demonstration ${each.key}"
   queue_all_runs = false
+  terraform_version = "~>1.2.0"
 
   dynamic "vcs_repo" {
     for_each = each.value.vcs_integrated ? [each.value.application_name] : []
