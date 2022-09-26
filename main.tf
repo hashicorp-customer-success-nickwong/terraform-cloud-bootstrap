@@ -10,14 +10,6 @@ terraform {
     }
     azuread = {
     }
-  }
-
-  backend "remote" {
-    organization = "nw-tfc-test"
-    workspaces {
-      name = "bootstrap"
-    }
-  }
 
   required_version = "~> 1.2.0"
 }
