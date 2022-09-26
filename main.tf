@@ -10,6 +10,7 @@ terraform {
     }
     azuread = {
     }
+  }
 
   required_version = "~> 1.2.0"
 }
