@@ -78,7 +78,7 @@
                     },
                     {
                         "team_name": "demo-owner-users",
-                        "permission_set": "full"
+                        "permission_set": "restricted"
                     }
                 ]
             }
